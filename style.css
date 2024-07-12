@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* header */
+.header {
+    background-color: #FFF8F3;
+    background-image: url('images/header_bg.png'), url('images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.dark-2 {
+    color: #474747;
+}
+
+.btn-primary {
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+}
+
+/* Nav styles */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* banner styles */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+
+.banner-content {
+    max-width: 580px;
+}
+
+.banner-greetings {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title {
+    font-weight: bold;
+    font-size: 85px;
+}
+
+.banner-profile-pic {
+    width: 580px;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.about {
+    margin: 0 auto;
+    width: 740px;
+    height: 350px;
+    background: rgb(255, 248, 243);
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10%;
+    background-color: #FFF8F3;
+}
+
+.about .about-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about .item-title {
+    color: rgb(117, 117, 117);
+    font-size: 19px;
+    margin-bottom: -5px;
+}
+
+.item-description {
+    font-weight: 500;
+}
+
+.section-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.section-description {
+    font-family: Open Sans;
+    font-size: 16px;
+    color: #757575;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.about .item-description {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 10px;
+}
